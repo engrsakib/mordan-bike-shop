@@ -1,33 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mordan Bike shop</title>
+    <!-- popins font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
     <!-- font awasome -->
-    <script src="https://kit.fontawesome.com/3c3766bed1.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/3c3766bed1.js"
+      crossorigin="anonymous"
+    ></script>
     <!-- CSS File-->
-     <link rel="stylesheet" href="style/desktop.css">
-     <link rel="stylesheet" href="style/mobile.css">
-     <link rel="stylesheet" href="./output/output.css">
-</head>
-<body>
+    <link rel="stylesheet" href="style/desktop.css" />
+    <link rel="stylesheet" href="style/mobile.css" />
+    <link rel="stylesheet" href="./output/output.css" />
+  </head>
+  <body>
     <!-- navBar design -->
-<header class="h-screen w-screen bg-[#264653]">
-    <nav class="">
+    <header class="h-screen w-screen max-sm:h-auto bg-[#264653]">
+      <nav class="border-b-2 border-solid border-cyan-50 drop-shadow-xl h-30">
         <!-- manue -->
-         <div class="py-14 flex gap-x-14 width80 h-7 items-center justify-end text-white">
-            <ul class="flex gap-x-6 text-white max-sm:invisible cursor-pointer">
-                <li>Home</li>
-                <li>Gear Shop</li>
-                <li>News</li>
-                <li>Contact</li>
-            </ul>
-            <!-- menu btn -->
-            <button class="btn max-sm:invisible">LogIn</button>
-            <i class="fa-solid fa-list text-white text-3xl md:invisible cursor-pointer"></i>
+        <!-- navBar Start -->
+        <div
+          class="py-[10px] flex gap-x-14 width80 items-center justify-end text-white"
+        >
+          <ul class="flex gap-x-6 text-white max-sm:invisible cursor-pointer">
+            <li>Home</li>
+            <li>Gear Shop</li>
+            <li>News</li>
+            <li>Contact</li>
+          </ul>
+          <!-- menu btn -->
+          <button class="btn max-sm:invisible">LogIn</button>
+          <i
+            class="fa-solid fa-list text-white text-3xl md:invisible cursor-pointer"
+          ></i>
         </div>
-    </nav>
-</header>
-</body>
+        <!-- navBar end -->
+      </nav>
+      <!-- Header Content Strat -->
+      <div
+        class="width80 flex max-sm:flex-col gap-20 mt-7 justify-between items-center"
+      >
+        <!-- first section start -->
+        <div class="width40 max-sm:width100">
+          <p class="pragraph">
+            Computer-controlled digital transistorized with electronic advance
+          </p>
+          <h1 class="heading max-sm:text-[25px]">Honda CBR 300R</h1>
+          <p class="pragraph text-justify">
+            The Honda CBR 300R is a versatile and stylish entry-level sportbike
+            that has gained popularity for its balance of performance and
+            practicality. With a 286cc single-cylinder engine, it delivers
+            smooth power and impressive fuel efficiency, making it ideal for
+            both new riders and experienced enthusiasts seeking a reliable daily
+            commuter. Its sleek, aerodynamic design is complemented by advanced
+            features like a lightweight frame and responsive suspension,
+            providing a nimble and engaging riding experience. The CBR 300R's
+            sporty appearance, combined with its user-friendly handling and
+            comfortable ergonomics, makes it a standout choice in the
+            small-displacement motorcycle market.
+          </p>
+          <button class="btn mt-[16px] w-[168px] text-white">Purchase</button>
+        </div>
+        <!-- first section end -->
+        <!-- Image section start -->
+        <div class="width60 max-sm:width100">
+          <img
+            src="./biker-zone-resources/images/slider/bike3.png"
+            alt="bike-slider"
+          />
+        </div>
+        <!-- Image section end -->
+      </div>
+      <!-- Header Content end -->
+    </header>
+  </body>
 </html>

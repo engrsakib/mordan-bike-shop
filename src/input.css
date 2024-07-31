@@ -2,16 +2,42 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer components{
-    .width80{
-        width: 80%;
-        margin: 0 auto;
-    }
-    .btn{
-        width: 91px;
-        height: 44px;
-        border-radius: 5px;
-        
-        background: rgb(231, 111, 81);
-    }
+@layer components {
+  .width80 {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .btn {
+    width: 91px;
+    height: 44px;
+    border-radius: 5px;
+    background: rgb(231, 111, 81);
+  }
+  .pragraph {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5rem;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .heading {
+    color: rgb(255, 255, 255);
+    font-family: Poppins;
+    font-size: 48px;
+    font-weight: 600;
+    line-height: 72px;
+    letter-spacing: 0px;
+    text-align: left;
+  }
+  .width40{
+    width: 40%;
+  }
+  .width60{
+    width: 60%;
+  }
+  .width100{
+    width: 100%
+  }
 }

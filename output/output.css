@@ -554,16 +554,52 @@ video {
   --tw-contain-style:  ;
 }
 
-.width80{
+.width80 {
   width: 80%;
   margin: 0 auto;
 }
 
-.btn{
+.btn {
   width: 91px;
   height: 44px;
   border-radius: 5px;
   background: rgb(231, 111, 81);
+}
+
+.pragraph {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.heading {
+  color: rgb(255, 255, 255);
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0px;
+  text-align: left;
+}
+
+.width40{
+  width: 40%;
+}
+
+.width60{
+  width: 60%;
+}
+
+.mt-7 {
+  margin-top: 1.75rem;
+}
+
+.mt-\[16px\] {
+  margin-top: 16px;
 }
 
 .flex {
@@ -574,16 +610,8 @@ video {
   height: 100vh;
 }
 
-.h-\[\] {
-  height: ;
-}
-
-.h-3 {
-  height: 0.75rem;
-}
-
-.h-7 {
-  height: 1.75rem;
+.w-\[168px\] {
+  width: 168px;
 }
 
 .w-screen {
@@ -602,6 +630,14 @@ video {
   justify-content: flex-end;
 }
 
+.justify-between {
+  justify-content: space-between;
+}
+
+.gap-20 {
+  gap: 5rem;
+}
+
 .gap-x-14 {
   -moz-column-gap: 3.5rem;
        column-gap: 3.5rem;
@@ -612,24 +648,31 @@ video {
        column-gap: 1.5rem;
 }
 
+.border-b-2 {
+  border-bottom-width: 2px;
+}
+
+.border-solid {
+  border-style: solid;
+}
+
+.border-cyan-50 {
+  --tw-border-opacity: 1;
+  border-color: rgb(236 254 255 / var(--tw-border-opacity));
+}
+
 .bg-\[\#264653\] {
   --tw-bg-opacity: 1;
   background-color: rgb(38 70 83 / var(--tw-bg-opacity));
 }
 
-.py-5 {
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
+.py-\[10px\] {
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
-.py-14 {
-  padding-top: 3.5rem;
-  padding-bottom: 3.5rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-justify {
+  text-align: justify;
 }
 
 .text-3xl {
@@ -642,15 +685,42 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-@media not all and (min-width: 768px) {
-  .max-md\:invisible {
-    visibility: hidden;
-  }
+.drop-shadow-xl {
+  --tw-drop-shadow: drop-shadow(0 20px 13px rgb(0 0 0 / 0.03)) drop-shadow(0 8px 5px rgb(0 0 0 / 0.08));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 @media not all and (min-width: 640px) {
+  .max-sm\:width100{
+    width: 100%
+  }
+
   .max-sm\:invisible {
     visibility: hidden;
+  }
+
+  .max-sm\:h-auto {
+    height: auto;
+  }
+
+  .max-sm\:flex-col {
+    flex-direction: column;
+  }
+
+  .max-sm\:text-\[30px\] {
+    font-size: 30px;
+  }
+
+  .max-sm\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .max-sm\:text-\[25px\] {
+    font-size: 25px;
+  }
+
+  .max-sm\:font-\[30px\] {
+    font-weight: 30px;
   }
 }
 
