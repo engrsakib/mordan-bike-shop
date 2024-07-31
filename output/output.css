@@ -554,12 +554,108 @@ video {
   --tw-contain-style:  ;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
+.width80{
+  width: 80%;
+  margin: 0 auto;
 }
 
-.text-green-950 {
+.btn{
+  width: 91px;
+  height: 44px;
+  border-radius: 5px;
+  background: rgb(231, 111, 81);
+}
+
+.flex {
+  display: flex;
+}
+
+.h-screen {
+  height: 100vh;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-3 {
+  height: 0.75rem;
+}
+
+.h-7 {
+  height: 1.75rem;
+}
+
+.w-screen {
+  width: 100vw;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.gap-x-14 {
+  -moz-column-gap: 3.5rem;
+       column-gap: 3.5rem;
+}
+
+.gap-x-6 {
+  -moz-column-gap: 1.5rem;
+       column-gap: 1.5rem;
+}
+
+.bg-\[\#264653\] {
+  --tw-bg-opacity: 1;
+  background-color: rgb(38 70 83 / var(--tw-bg-opacity));
+}
+
+.py-5 {
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+}
+
+.py-14 {
+  padding-top: 3.5rem;
+  padding-bottom: 3.5rem;
+}
+
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-white {
   --tw-text-opacity: 1;
-  color: rgb(5 46 22 / var(--tw-text-opacity));
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 768px) {
+  .max-md\:invisible {
+    visibility: hidden;
+  }
+}
+
+@media not all and (min-width: 640px) {
+  .max-sm\:invisible {
+    visibility: hidden;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:invisible {
+    visibility: hidden;
+  }
 }

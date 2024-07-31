@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components{
+    .width80{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .btn{
+        width: 91px;
+        height: 44px;
+        border-radius: 5px;
+        
+        background: rgb(231, 111, 81);
+    }
+}
