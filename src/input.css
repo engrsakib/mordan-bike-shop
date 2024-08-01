@@ -19,7 +19,7 @@
     font-size: 0.9rem;
     font-weight: 300;
     line-height: 1.5rem;
-    letter-spacing: 0px;
+    letter-spacing: 1px;
   }
   .heading {
     font-family: Poppins;
@@ -40,6 +40,9 @@
   }
   .width30 {
     width: 33%;
+  }
+  .width70{
+    width: 67%;
   }
   .width50 {
     width: 50%;
