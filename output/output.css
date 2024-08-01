@@ -554,44 +554,14 @@ video {
   --tw-contain-style:  ;
 }
 
-.width80 {
-  width: 80%;
-  margin: 0 auto;
+.flex-drc {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.btn {
-  width: 91px;
-  height: 44px;
-  border-radius: 5px;
-  background: rgb(231, 111, 81);
-}
-
-.pragraph {
-  color: rgb(255, 255, 255);
-  font-family: Poppins;
-  font-size: 0.9rem;
-  font-weight: 300;
-  line-height: 1.5rem;
-  letter-spacing: 0px;
-  text-align: left;
-}
-
-.heading {
-  color: rgb(255, 255, 255);
-  font-family: Poppins;
-  font-size: 48px;
-  font-weight: 600;
-  line-height: 72px;
-  letter-spacing: 0px;
-  text-align: left;
-}
-
-.width40{
-  width: 40%;
-}
-
-.width60{
-  width: 60%;
+.mt-12 {
+  margin-top: 3rem;
 }
 
 .mt-7 {
@@ -606,16 +576,16 @@ video {
   display: flex;
 }
 
-.h-screen {
-  height: 100vh;
+.h-auto {
+  height: auto;
+}
+
+.min-h-screen {
+  min-height: 100vh;
 }
 
 .w-\[168px\] {
   width: 168px;
-}
-
-.w-screen {
-  width: 100vw;
 }
 
 .cursor-pointer {
@@ -628,10 +598,6 @@ video {
 
 .justify-end {
   justify-content: flex-end;
-}
-
-.justify-between {
-  justify-content: space-between;
 }
 
 .gap-20 {
@@ -666,9 +632,18 @@ video {
   background-color: rgb(38 70 83 / var(--tw-bg-opacity));
 }
 
+.bg-white {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
 .py-\[10px\] {
   padding-top: 10px;
   padding-bottom: 10px;
+}
+
+.text-center {
+  text-align: center;
 }
 
 .text-justify {
@@ -678,6 +653,16 @@ video {
 .text-3xl {
   font-size: 1.875rem;
   line-height: 2.25rem;
+}
+
+.text-black {
+  --tw-text-opacity: 1;
+  color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
 }
 
 .text-white {
@@ -690,11 +675,91 @@ video {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
-@media not all and (min-width: 640px) {
-  .max-sm\:width100{
-    width: 100%
-  }
+.width80 {
+  width: 80%;
+  margin: 0 auto;
+}
 
+.btn {
+  width: 91px;
+  height: 44px;
+  border-radius: 5px;
+  background: rgb(231, 111, 81);
+}
+
+.pragraph {
+  font-family: Poppins;
+  font-size: 0.9rem;
+  font-weight: 300;
+  line-height: 1.5rem;
+  letter-spacing: 0px;
+}
+
+.heading {
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  letter-spacing: 0px;
+}
+
+.width30{
+  width: 33%;
+}
+
+.width50{
+  width: 50%;
+}
+
+.width100{
+  width: 100%
+}
+
+/* utitilities layer*/
+
+/* components layers */
+
+.selection\:bg-white *::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-white *::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.selection\:text-green-800 *::-moz-selection {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+
+.selection\:text-green-800 *::selection {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+
+.selection\:bg-white::-moz-selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.selection\:bg-white::selection {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 255 255 / var(--tw-bg-opacity));
+}
+
+.selection\:text-green-800::-moz-selection {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+
+.selection\:text-green-800::selection {
+  --tw-text-opacity: 1;
+  color: rgb(22 101 52 / var(--tw-text-opacity));
+}
+
+@media not all and (min-width: 640px) {
   .max-sm\:invisible {
     visibility: hidden;
   }
@@ -707,20 +772,12 @@ video {
     flex-direction: column;
   }
 
-  .max-sm\:text-\[30px\] {
-    font-size: 30px;
-  }
-
-  .max-sm\:text-\[20px\] {
-    font-size: 20px;
-  }
-
   .max-sm\:text-\[25px\] {
     font-size: 25px;
   }
 
-  .max-sm\:font-\[30px\] {
-    font-weight: 30px;
+  .max-sm\:width100{
+    width: 100%
   }
 }
 

@@ -21,9 +21,9 @@
     <link rel="stylesheet" href="style/mobile.css" />
     <link rel="stylesheet" href="./output/output.css" />
   </head>
-  <body>
+  <body class="selection:bg-white selection:text-green-800">
     <!-- navBar design -->
-    <header class="h-screen w-screen max-sm:h-auto bg-[#264653]">
+    <header class="width100 min-h-screen max-sm:h-auto bg-[#264653]">
       <nav class="border-b-2 border-solid border-cyan-50 drop-shadow-xl h-30">
         <!-- manue -->
         <!-- navBar Start -->
@@ -46,15 +46,15 @@
       </nav>
       <!-- Header Content Strat -->
       <div
-        class="width80 flex max-sm:flex-col gap-20 mt-7 justify-between items-center"
+        class="width80 flex-drc max-sm:flex-col gap-20 mt-7"
       >
         <!-- first section start -->
-        <div class="width40 max-sm:width100">
-          <p class="pragraph">
+        <div class="mt-12 width50 max-sm:width100">
+          <p class="pragraph text-white">
             Computer-controlled digital transistorized with electronic advance
           </p>
-          <h1 class="heading max-sm:text-[25px]">Honda CBR 300R</h1>
-          <p class="pragraph text-justify">
+          <h1 class="heading max-sm:text-[25px] text-white">Honda CBR 300R</h1>
+          <p class="pragraph text-white text-justify">
             The Honda CBR 300R is a versatile and stylish entry-level sportbike
             that has gained popularity for its balance of performance and
             practicality. With a 286cc single-cylinder engine, it delivers
@@ -71,7 +71,7 @@
         </div>
         <!-- first section end -->
         <!-- Image section start -->
-        <div class="width60 max-sm:width100">
+        <div class="width50 max-sm:width100">
           <img
             src="./biker-zone-resources/images/slider/bike3.png"
             alt="bike-slider"
@@ -81,5 +81,25 @@
       </div>
       <!-- Header Content end -->
     </header>
+    <!-- main fucntion start -->
+     <main class="width80 h-auto">
+      <!-- featured bikes section start-->
+       <div class="width100 bg-white mt-12">
+        <!-- text -->
+        <h1 class="heading max-sm:text-[25px] text-center text-black">Fetured Bikes In This Year</h1>   
+        <p class="pragraph text-center text-red-600">
+          Best bike collection
+        </p>  
+          <!--image  -->
+          <div class="width100 flex-drc max-sm:flex-col">
+            <img class="width30 max-sm:width100" src="./biker-zone-resources/images/slider/bike1.png" alt="">
+            <img class="width30 max-sm:width100" src="./biker-zone-resources/images/slider/bike2.png" alt="">
+            <img class="width30 max-sm:width100" src="./biker-zone-resources/images/slider/bike4.png" alt="">
+          </div>
+       </div>
+      <!-- featured bikes section end-->
+
+     </main>
+    <!-- main fucntion end -->
   </body>
 </html>
