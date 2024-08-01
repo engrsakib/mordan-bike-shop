@@ -643,6 +643,10 @@ video {
   cursor: pointer;
 }
 
+.flex-row {
+  flex-direction: row;
+}
+
 .items-center {
   align-items: center;
 }
@@ -661,6 +665,10 @@ video {
 
 .gap-7 {
   gap: 1.75rem;
+}
+
+.gap-3 {
+  gap: 0.75rem;
 }
 
 .gap-x-14 {
@@ -914,6 +922,54 @@ video {
 
   .max-sm\:text-\[25px\] {
     font-size: 25px;
+  }
+
+  .max-sm\:text-\[20px\] {
+    font-size: 20px;
+  }
+
+  .max-sm\:text-\[16px\] {
+    font-size: 16px;
+  }
+
+  .max-sm\:text-\[18px\] {
+    font-size: 18px;
+  }
+
+  .max-sm\:text-\[14px\] {
+    font-size: 14px;
+  }
+
+  .max-sm\:text-\[12px\] {
+    font-size: 12px;
+  }
+
+  .max-sm\:text-\[26px\] {
+    font-size: 26px;
+  }
+
+  .max-sm\:text-\[22px\] {
+    font-size: 22px;
+  }
+
+  .max-sm\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .max-sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .max-sm\:text-4xl {
+    font-size: 2.25rem;
+    line-height: 2.5rem;
+  }
+
+  .max-sm\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
   }
 
   .max-sm\:width30 {
