@@ -574,6 +574,14 @@ video {
   margin-top: 0.5rem;
 }
 
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .mt-7 {
   margin-top: 1.75rem;
 }
@@ -586,12 +594,16 @@ video {
   margin-top: 16px;
 }
 
-.mt-4 {
-  margin-top: 1rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .flex {
   display: flex;
+}
+
+.h-40 {
+  height: 10rem;
 }
 
 .h-auto {
@@ -602,16 +614,16 @@ video {
   min-height: 100vh;
 }
 
+.w-40 {
+  width: 10rem;
+}
+
 .w-\[168px\] {
   width: 168px;
 }
 
 .cursor-pointer {
   cursor: pointer;
-}
-
-.content-center {
-  align-content: center;
 }
 
 .items-center {
@@ -622,12 +634,12 @@ video {
   justify-content: flex-end;
 }
 
-.gap-20 {
-  gap: 5rem;
+.gap-1 {
+  gap: 0.25rem;
 }
 
-.gap-3 {
-  gap: 0.75rem;
+.gap-20 {
+  gap: 5rem;
 }
 
 .gap-7 {
@@ -689,9 +701,19 @@ video {
   line-height: 2.25rem;
 }
 
+.text-\[\#e76f51\] {
+  --tw-text-opacity: 1;
+  color: rgb(231 111 81 / var(--tw-text-opacity));
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-gray-500 {
+  --tw-text-opacity: 1;
+  color: rgb(107 114 128 / var(--tw-text-opacity));
 }
 
 .text-red-600 {
@@ -704,14 +726,9 @@ video {
   color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
-.text-orange-500 {
-  --tw-text-opacity: 1;
-  color: rgb(249 115 22 / var(--tw-text-opacity));
-}
-
-.text-orange-200 {
-  --tw-text-opacity: 1;
-  color: rgb(254 215 170 / var(--tw-text-opacity));
+.drop-shadow-2xl {
+  --tw-drop-shadow: drop-shadow(0 25px 25px rgb(0 0 0 / 0.15));
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
 .drop-shadow-xl {
@@ -728,7 +745,7 @@ video {
   width: 91px;
   height: 44px;
   border-radius: 5px;
-  background: rgb(231, 111, 81);
+  background: #e76f51;
 }
 
 .pragraph {
@@ -755,6 +772,10 @@ video {
   letter-spacing: 0%;
 }
 
+.width40 {
+  width: 40%;
+}
+
 .width30 {
   width: 33%;
 }
@@ -765,6 +786,19 @@ video {
 
 .width100 {
   width: 100%;
+}
+
+.margin0auto {
+  margin: 0 auto;
+}
+
+.card-name {
+  color: rgb(35, 166, 240);
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0.2px;
 }
 
 /* utitilities layer*/
@@ -816,10 +850,6 @@ video {
     visibility: hidden;
   }
 
-  .max-sm\:mt-2 {
-    margin-top: 0.5rem;
-  }
-
   .max-sm\:h-auto {
     height: auto;
   }
@@ -834,12 +864,6 @@ video {
 
   .max-sm\:width100 {
     width: 100%;
-  }
-}
-
-@media (min-width: 640px) {
-  .sm\:mt-2 {
-    margin-top: 0.5rem;
   }
 }
 
