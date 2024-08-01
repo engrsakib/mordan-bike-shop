@@ -995,6 +995,12 @@ video {
   }
 }
 
+@media (min-width: 640px) {
+  .sm\:width100 {
+    width: 100%;
+  }
+}
+
 @media (min-width: 768px) {
   .md\:invisible {
     visibility: hidden;
